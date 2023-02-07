@@ -1,0 +1,198 @@
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  overflow-x: hidden;
+}
+
+.app-menu_button {
+  border: none;
+  background: none;
+
+  position: fixed;
+  right: 4vw;
+
+  background-size: contain;
+  background-image: url("../assets/menu.png");
+
+  cursor: pointer;
+
+  z-index: 3;
+
+  transition: all 0.6s ease-in-out;
+}
+.app-menu-list {
+  width: 100vw;
+  height: 100vh;
+  background-color: #353d4d;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding-top: clamp(min(50px), 5vw, max(51px));
+
+  display: flex;
+  flex-direction: column;
+
+  transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(-100%);
+
+  z-index: 2;
+}
+.app-menu-list-active {
+  transition: opacity 0.8s, transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(0);
+}
+
+.app-menu-list_button {
+  width: 100%;
+
+  position: relative;
+  right: 16vw;
+
+  margin-top: clamp(min(16px), 1.2vw, max(50px));
+
+  text-align: right;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: clamp(min(11px), 3.55vw, max(40px));
+  font-weight: bold;
+
+  border: none;
+  background: none;
+
+  transition: all 0.3s ease;
+  transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.app-menu-list_button::after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+  /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+  width: 56%;
+  height: 100%;
+  left: 48vw;
+  top: 0;
+  border-radius: 50px;
+
+  transform: scaleY(0);
+  z-index: -1;
+  transition: transform 0.4s ease;
+}
+.app-menu-list_button:hover::after {
+  transform: scaleY(1);
+}
+.app-menu-list_button:hover {
+  color: #000;
+}
+
+.app-menu_button-active {
+  background-image: url("../assets/menuActive.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transform: rotate(180deg);
+}
+
+.scroll-to-top_button {
+  width: clamp(min(21.625px), 2.252vw, max(43.25px));
+  height: clamp(min(12.315px), 1.282vw, max(24.63px));
+
+  opacity: 0;
+
+  position: fixed;
+  bottom: 2vw;
+  right: 4vw;
+
+  padding: 0;
+  pointer-events: none;
+
+  transition: 0.4s;
+  z-index: 3;
+
+  border: none;
+  background: none;
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3Csvg width='47' height='27' viewBox='0 0 47 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='45.2127' y1='25.0412' x2='22.5853' y2='2.41375' stroke='%2300963F' stroke-width='4'/%3E%3Cline x1='1.95883' y1='24.2137' x2='24.5863' y2='1.5863' stroke='%2300963F' stroke-width='4'/%3E%3C/svg%3E%0A");
+}
+.show-scroll-to-top_button {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (min-width: 2px) and (max-width: 260px) {
+  .app-menu_button {
+    width: 20.25px;
+    height: 15.18px;
+
+    position: fixed;
+    top: 13vw;
+  }
+  .app-menu_button-active {
+    width: 15.18px;
+    height: 15.18px;
+  }
+}
+
+@media screen and (min-width: 261px) and (max-width: 410px) {
+  .app-menu_button {
+    width: 27px;
+    height: 20.25px;
+
+    position: fixed;
+    top: 13vw;
+  }
+  .app-menu_button-active {
+    width: 20.25px;
+    height: 20.25px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 776px) {
+  .app-menu_button {
+    width: 36px;
+    height: 27px;
+
+    position: fixed;
+    top: 50.08px;
+  }
+  .app-menu_button-active {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+@media screen and (min-width: 777px) and (max-width: 1920px) {
+  .app-menu_button {
+    width: 48px;
+    height: 36px;
+
+    position: fixed;
+    top: 45.58px;
+  }
+  .app-menu_button-active {
+    width: 36px;
+    height: 36px;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1920px) {
+    .app-menu_button {
+      width: 64px;
+      height: 48px;
+
+      position: fixed;
+      top: 39.58px;
+    }
+    .app-menu_button-active {
+      width: 45.25px;
+      height: 45.25px;
+    }
+  }
+}

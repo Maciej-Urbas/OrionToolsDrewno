@@ -1,0 +1,369 @@
+.footer {
+  width: 100%;
+  background-color: #d9d9d9;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-form_submit:hover {
+  background-color: #0f612a;
+}
+
+@media screen and (min-width: 777px) and (max-width: 1920px) {
+  .footer-helper {
+    width: 100%;
+    margin-top: 1vw;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .footer-contact {
+    width: 46%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .footer-contact_title {
+    font-size: clamp(min(28px), 3.125vw, max(60px));
+    margin-bottom: -1vw;
+    font-weight: bold;
+    align-self: center;
+  }
+
+  .footer-contact-pair {
+    margin-top: 3vw;
+
+    gap: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-contact-pair_img1 {
+    width: clamp(min(17px), 2.254vw, max(43.28px));
+  }
+  .footer-contact-pair_img2 {
+    width: clamp(min(22px), 2.916vw, max(56px));
+  }
+  .footer-contact-pair_p {
+    font-size: clamp(min(16px), 2.08vw, max(40px));
+  }
+
+  .form-helper {
+    width: 46%;
+    margin-top: 1vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-form {
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3vw;
+  }
+  .footer-form-label {
+    display: flex;
+    align-self: baseline;
+
+    margin-left: 5vw;
+
+    font-size: clamp(min(12px), 1.667vw, max(32px));
+    font-family: "Titillium Web", sans-serif;
+  }
+  .footer-form_email {
+    width: clamp(min(270px), 34.756vw, max(668px));
+    height: 3.6vw;
+
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid clamp(min(1px), 0.465vw, max(3px)) #00963f;
+
+    font-size: clamp(min(8px), 1.66vw, max(32px));
+    font-family: "Titillium Web", sans-serif;
+  }
+  .footer-form_message {
+    width: clamp(min(270px), 34.756vw, max(668px));
+    height: 11.6vw;
+
+    margin-top: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    resize: none;
+
+    border: solid clamp(min(1px), 0.465vw, max(3px)) #00963f;
+
+    font-size: clamp(min(8px), 1.66vw, max(32px));
+    font-family: "Titillium Web", sans-serif;
+  }
+  .footer-form_submit {
+    width: clamp(min(80px), 10.312vw, max(198px));
+    height: 4vw;
+
+    margin-top: 3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    border: none;
+    background-color: #00963f;
+
+    color: #fff;
+    font-size: clamp(min(8px), 1.875vw, max(36px));
+  }
+
+  .footer-logo {
+    margin-top: 3vw;
+
+    gap: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo_img {
+    width: clamp(min(62.26px), 17.294vw, max(332.54px));
+    height: clamp(min(25.62px), 7.116vw, max(142.8px));
+  }
+  .footer-logo_fb {
+    width: clamp(min(13.01px), 3.613vw, max(72px));
+    height: clamp(min(12.47px), 3.463vw, max(72px));
+  }
+
+  .footer-description {
+    width: 86%;
+
+    margin: auto;
+    margin-top: 2vw;
+
+    padding: 1vw 2vw 1.2vw 2vw;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(21.35px), 1.66vw, max(32px));
+  }
+
+  .footer-signature {
+    width: 100%;
+    height: clamp(min(12px), 5vw, max(100px));
+
+    margin-top: 3vw;
+
+    background-color: #c3c3c3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+
+    font-size: clamp(min(7px), 1.8vw, max(20px));
+  }
+}
+
+@media screen and (min-width: 2px) and (max-width: 776px) {
+  .footer-helper {
+    width: 100%;
+    margin-top: 1vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .footer-contact_title {
+    font-size: clamp(min(16px), 5.55vw, max(40px));
+    font-weight: bold;
+    margin-bottom: 4vw;
+    align-self: center;
+  }
+
+  .footer-contact-pair {
+    height: 60%;
+
+    margin-left: 12vw;
+    margin-top: -3vw;
+
+    gap: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-contact-pair_img1 {
+    width: clamp(min(11px), 3.61vw, max(28px));
+  }
+  .footer-contact-pair_img2 {
+    width: clamp(min(15px), 4.44vw, max(34.5px));
+  }
+  .footer-contact-pair_p {
+    font-size: clamp(min(10px), 4.44vw, max(24px));
+  }
+
+  .form-helper {
+    width: 100%;
+    margin-top: 1vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-form {
+    width: 62.79vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    margin-top: 1vw;
+  }
+  .footer-form-label {
+    font-size: clamp(min(9px), 3.72vw, max(26px));
+  }
+  .footer-form_email {
+    width: clamp(min(131px), 62.79vw, max(487px));
+    height: 8.6vw;
+
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    border: solid clamp(min(1px), 0.465vw, max(3px)) #00963f;
+
+    font-size: clamp(min(8px), 3.72vw, max(26px));
+  }
+  .footer-form_message {
+    width: clamp(min(131px), 62.79vw, max(487px));
+    height: 27.674vw;
+
+    margin-top: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    resize: none;
+
+    border: solid clamp(min(1px), 0.465vw, max(3px)) #00963f;
+
+    font-size: clamp(min(8px), 3.72vw, max(26px));
+  }
+  .footer-form_submit {
+    width: clamp(min(47px), 22.79vw, max(177px));
+    height: 6.8vw;
+
+    margin-top: 3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    border: none;
+    background-color: #00963f;
+
+    color: #fff;
+    font-size: clamp(min(9px), 3.72vw, max(26px));
+  }
+
+  .footer-logo {
+    margin-top: 6vw;
+
+    gap: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo_img {
+    width: clamp(min(62.26px), 17.294vw, max(134px));
+    height: clamp(min(25.62px), 7.116vw, max(55.2px));
+  }
+  .footer-logo_fb {
+    width: clamp(min(13.01px), 3.613vw, max(28px));
+    height: clamp(min(12.47px), 3.463vw, max(27px));
+  }
+
+  .footer-description {
+    width: 86%;
+
+    margin: auto;
+    margin-top: 3vw;
+
+    padding: 2vw 2vw 2.4vw 2vw;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(8px), 3.809vw, max(20px));
+  }
+
+  .footer-signature {
+    width: 100%;
+    height: clamp(min(12px), 5vw, max(39px));
+
+    background-color: #c3c3c3;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: clamp(min(7px), 3.33vw, max(18px));
+  }
+}

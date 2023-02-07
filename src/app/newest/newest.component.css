@@ -1,0 +1,385 @@
+.newest {
+  width: 100%;
+  background-color: #353d4d;
+
+  padding-bottom: 2vw;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+.newest-baner {
+  width: 100%;
+  height: clamp(min(36.311px), 17.291vw, max(332px));
+
+  background-color: rgba(217, 217, 217, 0.56);
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.newest-card-description_p {
+  white-space: pre-line;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.newest-card-description_button:hover {
+  background-color: #0f612a;
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .newestSwiperSmall1 {
+    display: none;
+  }
+  .newestSwiperSmall2 {
+    display: none;
+  }
+  .newestSwiperMedium {
+    display: none;
+  }
+  .newestSwiperLarge {
+    width: 82vw;
+    height: 100%;
+
+    margin-top: 6vw;
+    padding-bottom: 4vw;
+  }
+
+  .newest_baner {
+    width: 100%;
+    height: clamp(min(208.8px), 16.3vw, max(313px));
+
+    /* margin-top: 6vw;
+    margin-bottom: 4vw; */
+  }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(42px), 3.334vw, max(64px));
+
+    font-family: "Titillium Web", sans-serif;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(64px), 5vw, max(96px));
+    letter-spacing: 0.4vw;
+
+    font-family: "Titillium Web", sans-serif;
+
+    position: relative;
+
+    opacity: 0.15;
+  }
+
+  .newest-card {
+    width: 17.76vw;
+    margin: auto;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card_img {
+    width: 17.76vw;
+    height: 14.118vw;
+  }
+  .newest-card-description {
+    width: 100%;
+    height: 8vw;
+    background-color: #d9d9d9;
+
+    padding-bottom: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card-description_p {
+    font-size: clamp(min(16px), 1.25vw, max(24px));
+    font-weight: bold;
+    text-align: center;
+  }
+  .newest-card-description_button {
+    width: 13vw;
+    height: 3vw;
+
+    position: absolute;
+    bottom: 2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00963f;
+    border: none;
+
+    color: #ffffff;
+    font-size: clamp(min(13.3px), 1.04vw, max(20px));
+  }
+}
+
+@media screen and (min-width: 777px) and (max-width: 1280px) {
+  .newestSwiperSmall1 {
+    display: none;
+  }
+  .newestSwiperSmall2 {
+    display: none;
+  }
+  .newestSwiperLarge {
+    display: none;
+  }
+  .newestSwiperMedium {
+    width: clamp(min(592.46px), 76.25vw, max(976px));
+    height: 100%;
+
+    margin-top: 6vw;
+    padding-bottom: clamp(min(44px), 4vw, max(52px));
+  }
+
+  .newest_baner {
+    display: flex;
+    width: 100%;
+    height: clamp(min(126px), 16.3vw, max(208.8px));
+
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+  }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(25.5px), 3.281vw, max(42px));
+
+    font-family: "Titillium Web", sans-serif;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(39px), 5vw, max(64px));
+    letter-spacing: 0.4vw;
+
+    font-family: "Titillium Web", sans-serif;
+
+    position: relative;
+
+    opacity: 0.15;
+  }
+
+  .newest-card {
+    width: clamp(min(193px), 24.92vw, max(319px));
+    margin: auto;
+    background-color: #ffffff;
+
+    position: relative;
+    right: 16.7vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card_img {
+    width: clamp(min(193px), 24.92vw, max(319px));
+    height: 19.81vw;
+  }
+  .newest-card-description {
+    width: 100%;
+    height: 11vw;
+    background-color: #d9d9d9;
+
+    padding-bottom: 6vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card-description_p {
+    font-size: clamp(min(14px), 1.87vw, max(24px));
+    font-weight: bold;
+    text-align: center;
+  }
+  .newest-card-description_button {
+    width: 18vw;
+    height: 4.256vw;
+
+    position: absolute;
+    bottom: 2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00963f;
+    border: none;
+
+    color: #ffffff;
+    font-size: clamp(min(12px), 1.562vw, max(20px));
+  }
+}
+
+@media screen and (min-width: 2px) and (max-width: 776px) {
+  .newestSwiperSmall1 {
+    width: clamp(min(178px), 64vw, max(496.64px));
+    height: 100%;
+
+    margin-top: 6vw;
+  }
+  .newestSwiperSmall2 {
+    width: clamp(min(178px), 64vw, max(496.64px));
+    height: 100%;
+
+    margin-top: 2vw;
+  }
+  .newestSwiperMedium {
+    display: none;
+  }
+  .newestSwiperLarge {
+    display: none;
+  }
+
+  .newest_baner {
+    display: flex;
+    width: 100%;
+    height: clamp(min(34px), 16.23vw, max(126px));
+
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+  }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(16px), 6.667vw, max(52px));
+
+    font-family: "Titillium Web", sans-serif;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(22px), 10.211vw, max(79.23px));
+    letter-spacing: 0.4vw;
+
+    font-family: "Titillium Web", sans-serif;
+
+    position: relative;
+
+    opacity: 0.15;
+  }
+
+  .newest-buttons-helper {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .card-buttons_left {
+    width: clamp(min(20px), 5.797vw, max(45px));
+    height: clamp(min(20px), 5.797vw, max(45px));
+
+    margin-bottom: 9vw;
+
+    background-image: url("../../assets/arrow_left.png");
+    background-size: cover;
+    background-color: #353d4d;
+    border: none;
+  }
+  .card-buttons_right {
+    width: clamp(min(20px), 5.797vw, max(45px));
+    height: clamp(min(20px), 5.797vw, max(45px));
+
+    margin-bottom: 9vw;
+
+    background-image: url("../../assets/arrow_right.png");
+    background-size: cover;
+    background-color: #353d4d;
+    border: none;
+  }
+
+  .newest-card {
+    width: clamp(min(116px), 40vw, max(310.4px));
+    margin: auto;
+    background-color: #353d4d;
+
+    padding-bottom: clamp(min(38px), 8vw, max(62px));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newest-card-img_helper {
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card_img {
+    width: clamp(min(116px), 40vw, max(310.4px));
+    height: clamp(min(92.22px), 31.8vw, max(246.8px));
+  }
+  .newest-card-description {
+    width: 100%;
+    background-color: #d9d9d9;
+
+    padding-bottom: clamp(min(10px), 4vw, max(31px));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newest-card-description_p {
+    font-size: clamp(min(8px), 2.577vw, max(20px));
+    font-weight: bold;
+    text-align: center;
+  }
+  .newest-card-description_button {
+    width: clamp(min(81.2px), 28vw, max(217px));
+    height: clamp(min(27.26px), 9.4vw, max(73px));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00963f;
+    border: none;
+
+    color: #ffffff;
+    font-size: clamp(min(8px), 2.061vw, max(16px));
+    font-weight: bold;
+  }
+}

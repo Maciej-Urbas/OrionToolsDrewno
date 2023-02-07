@@ -1,0 +1,80 @@
+<div class="footer">
+  <div class="footer-helper">
+    <div class="footer-contact">
+      <p class="footer-contact_title">
+        <span class="color_primary">SKONTAKTUJ SIĘ</span> Z NAMI
+      </p>
+
+      <div class="footer-contact-pair">
+        <img class="footer-contact-pair_img1" src="../../assets/gps.png" />
+        <p class="footer-contact-pair_p">
+          ul. Guido Henckela Donnersmarcka 11,<br />41-&nbsp;807&nbsp;Zabrze
+        </p>
+      </div>
+
+      <div class="footer-contact-pair">
+        <img class="footer-contact-pair_img1" src="../../assets/phone.png" />
+        <p class="footer-contact-pair_p">+48 609 947 000 /+48 600 413 302</p>
+      </div>
+
+      <div class="footer-contact-pair">
+        <img class="footer-contact-pair_img2" src="../../assets/mail.png" />
+        <p class="footer-contact-pair_p">shop@oriontools.pl</p>
+      </div>
+    </div>
+
+    <div class="form-helper">
+      <p class="footer-contact_title">
+        <span class="color_primary">FORMULARZ</span> KONTAKTOWY
+      </p>
+      <form
+        class="footer-form"
+        [formGroup]="footerForm"
+        (ngSubmit)="onSubmit()"
+      >
+        <label class="footer-form-label"
+          >EMAIL <span style="color: #ff0000">*</span></label
+        >
+        <input
+          class="footer-form_email"
+          type="email"
+          maxlength="320"
+          formControlName="email"
+        />
+
+        <label class="footer-form-label"
+          >TREŚĆ WIADOMOŚCI <span style="color: #ff0000">*</span></label
+        >
+        <textarea
+          class="footer-form_message"
+          maxlength="500"
+          formControlName="message"
+        ></textarea>
+
+        <button class="footer-form_submit" type="submit">Wyślij</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-logo">
+    <a href="https://www.oriontools.pl/" target="_blank">
+      <img class="footer-logo_img" src="../../assets/footerLogo.png" />
+    </a>
+    <a
+      href="https://www.facebook.com/profile.php?id=100079151346778"
+      target="_blank"
+    >
+      <img class="footer-logo_fb" src="../../assets/footerFB.png" />
+    </a>
+  </div>
+
+  <p class="footer-description">
+    Firma Orion Tools jest liderem w produkcji noży przemysłowych na rynku
+    europejskim. Noże do recyklingu oraz noże do rozdrabniaczy drewna stanowią
+    znaczną część naszej produkcji.
+  </p>
+
+  <div class="footer-signature">
+    <a href="https://www.oriontools.pl/">&copy; 2023 Orion Tools </a>
+  </div>
+</div>

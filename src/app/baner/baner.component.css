@@ -1,0 +1,91 @@
+.baner {
+  width: 100%;
+  background-color: #353d4d;
+
+  position: relative;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.baner {
+  height: clamp(min(65px), 30.952vw, max(127.17px));
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 2px) and (max-width: 260px) {
+  .baner_logoSmall {
+    display: block;
+  }
+  .baner_logoSmallM {
+    display: none;
+  }
+  .baner_logoSmallL {
+    display: none;
+  }
+  .baner_logoLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 261px) and (max-width: 410px) {
+  .baner_logoSmallM {
+    display: block;
+  }
+  .baner_logoSmallL {
+    display: none;
+  }
+  .baner_logoSmall {
+    display: none;
+  }
+  .baner_logoLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 776px) {
+  .baner_logoSmallM {
+    display: none;
+  }
+  .baner_logoSmallL {
+    display: block;
+  }
+  .baner_logoSmall {
+    display: none;
+  }
+  .baner_logoLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 777px) and (max-width: 1920px) {
+  .baner_logoSmall {
+    display: none;
+  }
+  .baner_logoSmallM {
+    display: none;
+  }
+  .baner_logoSmallL {
+    display: none;
+  }
+  .baner_logoLarge {
+    display: block;
+    height: clamp(min(48px), 22.857vw, max(84.433px));
+  }
+}

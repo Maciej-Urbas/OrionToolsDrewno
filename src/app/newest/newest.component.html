@@ -1,0 +1,592 @@
+<div class="newest">
+  <div class="newest-baner">
+    <div class="newest-baner_onDisplay">
+      NAJNOWSZE <span class="color_primary">PRODUKTY</span>
+    </div>
+    <div class="newest-baner_inBackground">P R O D U K T Y</div>
+  </div>
+
+  <swiper [config]="newestSwiperConfigSmall1" class="newestSwiperSmall1">
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left1 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/1.png"
+              alt="newest1"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[0] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right1 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left1 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/2.png"
+              alt="newest2"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[1] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right1 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left1 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/3.png"
+              alt="newest3"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[2] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right1 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left1 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/4.png"
+              alt="newest4"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[3] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right1 card-buttons_right"></div>
+      </div>
+    </ng-template>
+  </swiper>
+
+  <swiper [config]="newestSwiperConfigSmall2" class="newestSwiperSmall2">
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left2 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/5.png"
+              alt="newest5"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[4] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right2 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left2 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/6.png"
+              alt="newest6"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[5] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right2 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left2 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/7.png"
+              alt="newest7"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[6] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right2 card-buttons_right"></div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide
+      ><div class="newest-buttons-helper">
+        <div class="newest-card-buttons_left2 card-buttons_left"></div>
+
+        <div class="newest-card">
+          <div class="newest-card-img_helper">
+            <img
+              class="newest-card_img"
+              src="../../assets/newest/8.png"
+              alt="newest8"
+            />
+          </div>
+
+          <div class="newest-card-description">
+            <p class="newest-card-description_p">
+              {{ newestCaptions[7] }}
+            </p>
+            <button
+              (click)="newestLink()"
+              class="newest-card-description_button"
+            >
+              PRZEJDŹ DO SKLEPU
+            </button>
+          </div>
+        </div>
+
+        <div class="newest-card-buttons_right2 card-buttons_right"></div>
+      </div>
+    </ng-template>
+  </swiper>
+
+  <swiper [config]="newestSwiperConfigMedium" class="newestSwiperMedium">
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/1.png"
+            alt="newest1"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[0] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/2.png"
+            alt="newest2"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[1] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/3.png"
+            alt="newest3"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[2] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/4.png"
+            alt="newest4"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[3] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/5.png"
+            alt="newest5"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[4] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/6.png"
+            alt="newest6"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[5] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/7.png"
+            alt="newest7"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[6] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/8.png"
+            alt="newest8"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[7] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+  </swiper>
+
+  <swiper [config]="newestSwiperConfigLarge" class="newestSwiperLarge">
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/1.png"
+            alt="newest1"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[0] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/2.png"
+            alt="newest2"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[1] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/3.png"
+            alt="newest3"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[2] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/4.png"
+            alt="newest4"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[3] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/5.png"
+            alt="newest5"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[4] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/6.png"
+            alt="newest6"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[5] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/7.png"
+            alt="newest7"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[6] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <div class="newest-card">
+        <div class="newest-card-img_helper">
+          <img
+            class="newest-card_img"
+            src="../../assets/newest/8.png"
+            alt="newest8"
+          />
+        </div>
+
+        <div class="newest-card-description">
+          <p class="newest-card-description_p">
+            {{ newestCaptions[7] }}
+          </p>
+          <button (click)="newestLink()" class="newest-card-description_button">
+            PRZEJDŹ DO SKLEPU
+          </button>
+        </div>
+      </div>
+    </ng-template>
+  </swiper>
+</div>
