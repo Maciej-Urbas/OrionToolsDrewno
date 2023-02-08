@@ -85,13 +85,15 @@
     font-size: clamp(min(42px), 3.334vw, max(64px));
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
   }
   .newest-baner_inBackground {
     font-weight: bold;
     font-size: clamp(min(64px), 5vw, max(96px));
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.32vw;
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
 
     position: relative;
 
@@ -181,13 +183,15 @@
     font-size: clamp(min(25.5px), 3.281vw, max(42px));
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
   }
   .newest-baner_inBackground {
     font-weight: bold;
     font-size: clamp(min(39px), 5vw, max(64px));
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.32vw;
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
 
     position: relative;
 
@@ -270,7 +274,7 @@
   .newest_baner {
     display: flex;
     width: 100%;
-    height: clamp(min(34px), 16.23vw, max(126px));
+    height: clamp(min(29px), 16.23vw, max(126px));
 
     margin-top: 6vw;
     margin-bottom: 4vw;
@@ -279,16 +283,18 @@
     position: absolute;
 
     font-weight: bold;
-    font-size: clamp(min(16px), 6.667vw, max(52px));
+    font-size: clamp(min(12px), 6.667vw, max(52px));
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
   }
   .newest-baner_inBackground {
     font-weight: bold;
-    font-size: clamp(min(22px), 10.211vw, max(79.23px));
-    letter-spacing: 0.4vw;
+    font-size: clamp(min(18px), 10.211vw, max(79.23px));
+    letter-spacing: 0.54vw;
 
     font-family: "Titillium Web", sans-serif;
+    color: #fff;
 
     position: relative;
 

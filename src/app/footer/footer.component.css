@@ -221,7 +221,7 @@ a:active {
     align-items: baseline;
   }
   .footer-contact_title {
-    font-size: clamp(min(16px), 5.55vw, max(40px));
+    font-size: clamp(min(14px), 5.55vw, max(40px));
     font-weight: bold;
     margin-bottom: 4vw;
     align-self: center;
@@ -273,8 +273,8 @@ a:active {
     font-size: clamp(min(9px), 3.72vw, max(26px));
   }
   .footer-form_email {
-    width: clamp(min(131px), 62.79vw, max(487px));
-    height: 8.6vw;
+    width: clamp(min(113px), 62.79vw, max(487px));
+    height: clamp(min(12px), 7.2vw, max(56px));
 
     margin-top: 1vw;
     margin-bottom: 2vw;
@@ -289,7 +289,7 @@ a:active {
     font-size: clamp(min(8px), 3.72vw, max(26px));
   }
   .footer-form_message {
-    width: clamp(min(131px), 62.79vw, max(487px));
+    width: clamp(min(113px), 62.79vw, max(487px));
     height: 27.674vw;
 
     margin-top: 1vw;
@@ -306,7 +306,7 @@ a:active {
     font-size: clamp(min(8px), 3.72vw, max(26px));
   }
   .footer-form_submit {
-    width: clamp(min(47px), 22.79vw, max(177px));
+    width: clamp(min(36px), 22.79vw, max(177px));
     height: 6.8vw;
 
     margin-top: 3vw;

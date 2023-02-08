@@ -76,9 +76,9 @@
   background: #fff;
   /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
   /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
-  width: 56%;
+  width: 43%;
   height: 100%;
-  left: 48vw;
+  left: 59vw;
   top: 0;
   border-radius: 50px;
 
@@ -139,6 +139,22 @@
     width: 15.18px;
     height: 15.18px;
   }
+  .app-menu-list_button::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 72%;
+    height: 100%;
+    left: 29%;
+    top: 0;
+    border-radius: 50px;
+
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.4s ease;
+  }
 }
 
 @media screen and (min-width: 261px) and (max-width: 410px) {
@@ -153,6 +169,22 @@
     width: 20.25px;
     height: 20.25px;
   }
+  .app-menu-list_button::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 52%;
+    height: 100%;
+    left: 49%;
+    top: 0;
+    border-radius: 50px;
+
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.4s ease;
+  }
 }
 
 @media screen and (min-width: 411px) and (max-width: 776px) {
@@ -166,6 +198,22 @@
   .app-menu_button-active {
     width: 27px;
     height: 27px;
+  }
+  .app-menu-list_button::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 43%;
+    height: 100%;
+    left: 58%;
+    top: 0;
+    border-radius: 50px;
+
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.4s ease;
   }
 }
 
@@ -193,6 +241,22 @@
     .app-menu_button-active {
       width: 45.25px;
       height: 45.25px;
+    }
+    .app-menu-list_button::after {
+      position: absolute;
+      content: "";
+      background: #fff;
+      /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
+      /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+      width: 38%;
+      height: 100%;
+      left: 63%;
+      top: 0;
+      border-radius: 50px;
+
+      transform: scaleY(0);
+      z-index: -1;
+      transition: transform 0.4s ease;
     }
   }
 }

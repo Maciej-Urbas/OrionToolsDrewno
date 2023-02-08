@@ -289,13 +289,13 @@
   }
   .wood-title_numbers {
     color: #ffffff;
-    font-size: clamp(min(26px), 12.38vw, max(64px));
+    font-size: clamp(min(22px), 12.38vw, max(64px));
     font-weight: bolder;
     opacity: 0.15;
   }
   .wood-title_title {
     color: #ffffff;
-    font-size: clamp(min(12px), 5.714vw, max(30px));
+    font-size: clamp(min(10px), 5.714vw, max(30px));
     font-weight: bold;
 
     position: relative;

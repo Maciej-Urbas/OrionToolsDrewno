@@ -50,6 +50,8 @@
     font-size: clamp(min(24px), 6vw, max(70px));
     font-weight: bold;
 
+    letter-spacing: 1vw;
+
     opacity: 0.12;
   }
   .offer-baner-description {
@@ -143,7 +145,7 @@
 @media screen and (min-width: 2px) and (max-width: 776px) {
   .offer-baner {
     width: clamp(min(360px), 100vw, max(776px));
-    height: clamp(min(62px), 17.223vw, max(134px));
+    height: clamp(min(70px), 17.223vw, max(134px));
     background-color: #d9d9d9;
 
     border-bottom: solid 2px #000;
@@ -168,8 +170,10 @@
   .offer-baner-title_inBackground {
     position: absolute;
 
-    font-size: clamp(min(24px), 8.889vw, max(69px));
+    font-size: clamp(min(22px), 8.889vw, max(69px));
     font-weight: bold;
+
+    letter-spacing: 1vw;
 
     opacity: 0.12;
   }
@@ -219,13 +223,13 @@
     margin-left: 4vw;
   }
   .offer-item-title_numbers {
-    font-size: clamp(min(24px), 8.889vw, max(69px));
+    font-size: clamp(min(16px), 8.889vw, max(69px));
     font-weight: bold;
 
     opacity: 0.15;
   }
   .offer-item-title_title {
-    font-size: clamp(min(12px), 5.714vw, max(44.5px));
+    font-size: clamp(min(10px), 5.714vw, max(44.5px));
     font-weight: bold;
 
     position: relative;
@@ -243,7 +247,7 @@
   }
 
   .offer-item-description {
-    width: 76%;
+    width: 90%;
 
     text-align: center;
     font-size: clamp(min(8px), 3.809vw, max(30px));
