@@ -90,7 +90,6 @@
   .newest-baner_inBackground {
     font-weight: bold;
     font-size: clamp(min(64px), 5vw, max(96px));
-    letter-spacing: 0.32vw;
 
     font-family: "Titillium Web", sans-serif;
     color: #fff;
@@ -188,7 +187,6 @@
   .newest-baner_inBackground {
     font-weight: bold;
     font-size: clamp(min(39px), 5vw, max(64px));
-    letter-spacing: 0.32vw;
 
     font-family: "Titillium Web", sans-serif;
     color: #fff;
@@ -291,7 +289,6 @@
   .newest-baner_inBackground {
     font-weight: bold;
     font-size: clamp(min(18px), 10.211vw, max(79.23px));
-    letter-spacing: 0.54vw;
 
     font-family: "Titillium Web", sans-serif;
     color: #fff;

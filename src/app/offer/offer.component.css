@@ -94,8 +94,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    margin-left: 4vw;
   }
   .offer-item-title_numbers {
     font-size: clamp(min(34px), 4.479vw, max(86px));
@@ -118,7 +116,7 @@
     text-align: center;
 
     position: relative;
-    right: 3.6vw;
+    right: 1.7vw;
   }
 
   .offer-item-description {
@@ -243,7 +241,7 @@
     text-align: center;
 
     position: relative;
-    right: 7vw;
+    right: 8vw;
   }
 
   .offer-item-description {
@@ -265,4 +263,13 @@
     color: #fff;
     font-size: clamp(min(9px), 3.809vw, max(30px));
   }
+}
+
+.regenMarginSmall {
+  position: relative;
+  right: 10vw;
+}
+
+span.keeptogether {
+  white-space: nowrap;
 }
